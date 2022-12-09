@@ -1,9 +1,11 @@
+var1 = 0 
+var2 = 0 
+var3 = 0
+var1 = int(input("Enter your first number: "))
+var2 = int(input("Enter your second number: "))
+
 import random
-num1 = 0 
-num2 = 0 
 
-num1 = int(input("What is you first number: ")) 
-num2 = int(input("What is your second number: "))
-
-print(random.randint(num1, num2))
+var3 = (random.randint(var1, var2))
+print(var3)
 
