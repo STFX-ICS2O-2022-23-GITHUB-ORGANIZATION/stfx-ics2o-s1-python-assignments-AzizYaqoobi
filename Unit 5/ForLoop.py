@@ -1,7 +1,7 @@
-#for i in range (5, 10):
+for i in range (5, 10):
     
     
- #   print(i)
+    print(i)
     
     
 #ROWS = 10
@@ -11,16 +11,16 @@
    # print(blanks + '*')
 
 
-import time
+#import time
 
 
-ROWS = 10  
-CHARS = 10 
+#ROWS = 10  
+#CHARS = 10 
 
-for i in range (0, ROWS): 
-    for j in range (0, CHARS): 
+#for i in range (0, ROWS): 
+#    for j in range (0, CHARS): 
         
-        print("*", end = "")
-        time.sleep(.5)
+#        print("*", end = "")
+#        time.sleep(.5)
         
-    print("")
+#    print("")
