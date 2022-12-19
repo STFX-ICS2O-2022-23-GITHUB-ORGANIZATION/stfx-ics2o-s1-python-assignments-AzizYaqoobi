@@ -1,14 +1,14 @@
-for i in range (5, 10):
+#for i in range (5, 10):
     
     
-    print(i)
+#    print(i)
     
     
-#ROWS = 10
+ROWS = 10
 
-#for i in range (0, ROWS):
-  #  blanks = " " * i 
-   # print(blanks + '*')
+for i in range (0, ROWS):
+    blanks = " " * i 
+    print(blanks + '*')
 
 
 #import time
