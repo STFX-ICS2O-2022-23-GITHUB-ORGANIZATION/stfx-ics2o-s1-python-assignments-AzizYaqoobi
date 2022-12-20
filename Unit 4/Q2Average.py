@@ -7,7 +7,7 @@ while(userinput != 0):
     var = userinput + 1 
     userinput = int(input())
     
-    total = total + userinput / var  
+    total = total + userinput 
     
     print(var)
     
