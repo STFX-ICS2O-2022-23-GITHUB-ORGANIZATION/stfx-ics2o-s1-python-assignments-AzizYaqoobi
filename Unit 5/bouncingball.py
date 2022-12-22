@@ -38,15 +38,15 @@ while True:
     display.flip()
    
    # check if edge touches sides, change direction 
-    if center_x + RADIUS > SCREEN_WIDTH or center_y - RADIUS < 0:
-     horizontal_pixle_movement = -horizontal_pixle_movment  
+    if center_x + RADIUS > SCREEN_WIDTH or center_x - RADIUS < 0:
+     horizontal_pixle_movement = -horizontal_pixle_movement  
   
-    if center_x + RADIUS > SCREEN_HEIGHT or center_y - RADIUS < 0:
+    if center_y + RADIUS > SCREEN_HEIGHT or center_y - RADIUS < 0:
        vertical_pixle_movement = -vertical_pixle_movement 
    
     
-    center_x = center_x + 1 
-    center_y = center_y + 1 
+    center_x = center_x + horizontal_pixle_movement 
+    center_y = center_y + vertical_pixle_movement 
     clock.tick(45)
     
     
